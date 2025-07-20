@@ -31,7 +31,7 @@ metadata:
   name: demo-svc
 spec:
   selector:
-    app.kubernetes.io/name: app1
+    name: app1
   ports:
   - protocol: TCP
     port: 80
